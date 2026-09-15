@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ru">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поступление в школу — Частная школа «Знайка»</title>
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Верхняя панель -->
+  <div class="topbar">
+    <div class="wrap">
+      <span class="tb-item">📞 8(495) 708-80-59 &nbsp;·&nbsp; +7(495) 477-59-60</span>
+      <span class="tb-item">✉ <a href="mailto:school@znaika-school.ru">school@znaika-school.ru</a> · <a href="mailto:info@uchebaplus.ru">info@uchebaplus.ru</a></span>
+      <span class="tb-item">📍 Москва, пр. Черепановых, д. 36</span>
+    </div>
+  </div>
+
+  <!-- Шапка -->
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-main">
+      <a class="logo" href="index.html" title="На главную">
+        <img src="img/01__.png" alt="Логотип Школы «Знайка»">
+        <span class="logo-text">Школа «Знайка»<small>Маленькая школа — большое преимущество</small></span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li class="active"><a href="postuplenie.html">Поступление в школу</a></li>
+          <li><a href="zayavlenie.html">Заявление на поступление в школу</a></li>
+          <li><a href="dokumenty.html">Список документов</a></li>
+          <li><a href="o-shkole.html">О школе</a></li>
+          <li><a href="kontakty.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <a href="zayavlenie.html" class="btn btn-accent btn-sm">Зачислиться</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" style="padding:90px 0 100px;">
+    <div class="hero-bg"></div>
+    <div class="wrap">
+      <span class="kicker">Поступление в школу 2026/2027</span>
+      <h1>Этапы поступления</h1>
+      <p class="lead">
+        Приём детей в группы и классы осуществляется в течение всего года при наличии свободных мест
+        без предварительных экзаменов. Собеседование с психологом и заместителем директора по учебной работе является обязательным.
+      </p>
+    </div>
+  </section>
+
+  <!-- Вкладки jQuery UI: Этапы | Стоимость | Документы -->
+  <section id="tabs-section">
+    <div class="wrap">
+      <div id="postupl-tabs">
+        <ul>
+          <li><a href="#etapy">Этапы поступления</a></li>
+          <li><a href="#stoimost">Стоимость обучения</a></li>
+          <li><a href="#docs">Документы</a></li>
+        </ul>
+
+        <!-- Вкладка 1: Этапы поступления -->
+        <div id="etapy">
+          <ol class="steps">
+            <li>
+              <b>Ознакомьтесь со школой и условиями обучения</b>
+              <span>Изучите разделы «Главная» и «О школе» на нашем сайте, посмотрите фотографии и отзывы родителей.</span>
+            </li>
+            <li>
+              <b>Скачайте и заполните пакет документов</b>
+              <span>Перейдите во вкладку «<a href="dokumenty.html">Список документов</a>» и скачайте: Заявление, Ученическую анкету, Согласие на обработку персональных данных. Заполните их для нужного класса.</span>
+            </li>
+            <li>
+              <b>Отправьте заявку через онлайн-форму</b>
+              <span>Перейдите во вкладку «<a href="zayavlenie.html">Заявление на поступление в школу</a>» и заполните онлайн-форму. Данные автоматически переносятся в CRM Bitrix24 — мы свяжемся с вами.</span>
+            </li>
+            <li>
+              <b>Собеседование с психологом и заместителем директора</b>
+              <span>Обязательное собеседование для оценки готовности ребёнка к программе выбранного класса.</span>
+            </li>
+            <li>
+              <b>Заключение договора и оплата</b>
+              <span>Оплата по банковским реквизитам: равными частями (за месяц, семестр или год) или материнским капиталом. Подробнее — в таблице тарифов.</span>
+            </li>
+            <li>
+              <b>Зачисление в школу</b>
+              <span>Ученик считается принятым в школу после получения школой заполненной вступительной анкеты, медицинской карты, годового взноса и заключения психолога и заместителя директора.</span>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Вкладка 2: Стоимость обучения -->
+        <div id="stoimost">
+          <div class="table-wrap">
+            <table class="price">
+              <thead>
+                <tr>
+                  <th>Программа / ступень</th>
+                  <th>Стоимость (₽/мес)</th>
+                  <th class="dim">Примечание</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong></strong></td>
+                  <td class="price-v">50 000 ₽</td>
+                  <td class="dim">Пребывание с 8:00 до 16:00 / до 19:00. 4-разовое питание, развивающие занятия.</td>
+                </tr>
+                <tr>
+                  <td><strong>1–9 классы — базовая</strong></td>
+                  <td class="price-v">56 000 ₽</td>
+                  <td class="dim">Обучение до 15:00</td>
+                </tr>
+                <tr>
+                  <td><strong>1–9 классы — расширенная</strong></td>
+                  <td class="price-v">61 000 ₽</td>
+                  <td class="dim">Обучение до 19:00</td>
+                </tr>
+                <tr>
+                  <td><strong>1–9 классы — семейная форма</strong></td>
+                  <td class="price-v">46 000 ₽</td>
+                  <td class="dim">Заочная / дистанционная форма</td>
+                </tr>
+                <tr>
+                  <td><strong>1–9 классы — индивидуальный учебный план</strong></td>
+                  <td class="price-v">74 000 ₽</td>
+                  <td class="dim">Индивидуальный график обучения</td>
+                </tr>
+                <tr>
+                  <td><strong>10–11 классы — базовое обучение</strong></td>
+                  <td class="price-v">35 000 ₽</td>
+                  <td class="dim">Подготовка к ЕГЭ: русский язык + математика</td>
+                </tr>
+                <tr>
+                  <td><strong>10–11 классы — + 1 профильный предмет</strong></td>
+                  <td class="price-v">61 000 ₽</td>
+                  <td class="dim">3 раза в неделю по 2 урока</td>
+                </tr>
+                <tr>
+                  <td><strong>10–11 классы — + 2 профильных предмета</strong></td>
+                  <td class="price-v">74 000 ₽</td>
+                  <td class="dim">3 раза в неделю по 2 урока</td>
+                </tr>
+                <tr>
+                  <td><strong>Экстернат</strong></td>
+                  <td class="price-v">72 000 ₽</td>
+                  <td class="dim">Обучение до 19:00. Программа 10–11 класса за 1 год / 11 класса за 5 месяцев.</td>
+                </tr>
+                <tr>
+                  <td><strong>Экстернат — + 1 профильный предмет</strong></td>
+                  <td class="price-v">74 000 ₽</td>
+                  <td class="dim">3 раза в неделю по 2 урока</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p style="color:var(--muted); font-size:13.5px; margin-top:16px;">
+            * Точную стоимость можно уточнить по телефонам: +7 (499) 154-43-91, +7 (963) 665-45-98.
+            Оплата — по банковским реквизитам равными частями или материнским капиталом.
+          </p>
+        </div>
+
+        <!-- Вкладка 3: Документы -->
+        <div id="docs">
+          <p>
+            <strong>Перед подачей заявления скачайте и заполните документы.</strong><br>
+            Перейдите во вкладку «<a href="dokumenty.html">Список документов</a>» — там вы найдёте заявления, ученические анкеты и согласия для всех классов.
+          </p>
+          <div style="display:flex; flex-wrap:wrap; gap:16px; margin:20px 0;">
+            <div class="doc-group" style="flex:1; min-width:260px;">
+              <h3>📄 Заявления</h3>
+              <p style="font-size:14px; color:var(--muted);">Заявление поступление в школу на нужный класс.</p>
+            </div>
+            <div class="doc-group" style="flex:1; min-width:260px;">
+              <h3>📝 Ученическая анкета</h3>
+              <p style="font-size:14px; color:var(--muted);">Заполните анкету и предоставьте вместе с заявлением.</p>
+            </div>
+            <div class="doc-group" style="flex:1; min-width:260px;">
+              <h3>✅ Согласие на обработку ПД</h3>
+              <p style="font-size:14px; color:var(--muted);">Согласие на обработку персональных данных — обязательно.</p>
+            </div>
+          </div>
+          <a href="dokumenty.html" class="btn btn-accent">Полный список документов</a>
+          <a href="zayavlenie.html" class="btn btn-outline" style="margin-left:12px;">Заполнить форму зачисления</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ (jQuery UI Accordion) -->
+  <section class="section-alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="tag">Вопросы</span>
+        <h2>Часто задаваемые вопросы</h2>
+      </div>
+      <div id="faq-accordion" style="max-width:900px; margin:0 auto;">
+        <h3>Каковы условия приёма в школу или?</h3>
+        <div>
+          <p>Приём детей в группы и классы осуществляется в течение всего года при наличии свободных мест без предварительных экзаменов, однако собеседование с психологом и заместителем директора по учебной работе является обязательным.</p>
+          <p>Предполагается, что любой ребёнок, за исключением тех, кто нуждается в особой поддержке, сможет освоить программу группы или класса, соответствующих его возрасту. Школа оставляет за собой право не принимать учащегося, потребности которого не могут быть удовлетворены.</p>
+          <p>Ученик считается принятым в школу после получения школой заполненной родителями вступительной анкеты, медицинской карты, годового взноса и заключения психолога и заместителя директора.</p>
+        </div>
+
+        <h3>Каков режим работы школы и детского сада?</h3>
+        <div>
+          <p> (дошкольное отделение) и школа «Знайка» работают с 8:00 до 19:00, что очень удобно для занятых родителей. Но дети могут посещать наше учреждение и неполный день.</p>
+        </div>
+
+        <h3>Как организовано питание детей?</h3>
+        <div>
+          <p>В детском саду и школе организовано четырёхразовое питание, которое готовится квалифицированными поварами под строгим контролем медицинских работников.</p>
+        </div>
+
+        <h3>Работают ли в «Знайке» психолог и логопед?</h3>
+        <div>
+          <p>В детском саду и школе работают психологи, специализирующиеся на решении проблем детей разного возраста, и логопеды, деятельность которых также различается в зависимости от ступени образования.</p>
+        </div>
+
+        <h3>В какие вузы поступают выпускники школы?</h3>
+        <div>
+          <p>Наши учащиеся хорошо понимают, что только хорошее образование поможет им добиться успеха в жизни. Выпускники обычно выбирают серьёзные московские вузы: Финансовую академию при Правительстве РФ, МГЮА, различные факультеты МГУ, МИФИ, МИСИ, МАИ, медицинскую академию. Большинство из них учится на бюджетных отделениях.</p>
+        </div>
+
+        <h3>Сколько стоит обучение в школе «Знайка»?</h3>
+        <div>
+          <p>Стоимость обучения определяется режимом посещения, ступенью образования и количеством детей в семье, одновременно являющимися воспитанниками комплекса. Базовый размер оплаты можно узнать по телефонам: +7 (499) 154-43-91, +7 (963) 665-45-98.</p>
+          <p>Подробнее — на вкладке <a href="#stoimost">«Стоимость обучения»</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA: Заполнить форму -->
+  <section>
+    <div class="wrap">
+      <div class="cta">
+        <h2>Подать заявление на зачисление</h2>
+        <p>Сначала скачайте документы, заполните их — затем перейдите к форме. Все данные автоматически передаются в Bitrix24 CRM.</p>
+        <a href="zayavlenie.html" class="btn btn-accent btn-lg">Заполнить форму</a>
+        <a href="dokumenty.html" class="btn btn-outline btn-lg" style="margin-left:12px;">Скачать документы</a>
+        <span class="note">Перед заполнением формы скачайте и заполните документы во вкладке «Список документов».</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="site-footer">
+    <div class="wrap">
+
+      <div class="footer-grid footer-grid--center" itemscope itemtype="http://schema.org/Organization">
+        <div class="footer-contacts">
+          <h4><span itemprop="name">Частная школа «Знайка»</span></h4>
+          <p>&#128222; <a href="tel:+74957088059" class="copy-phone" title="Нажмите, чтобы скопировать">8(495)708-80-59</a> &middot; 8(495)477-59-60 &middot; 8(495)154-43-91</p>
+          <p>&#9993; <a href="mailto:info@uchebaplus.ru">info@uchebaplus.ru</a> &middot; <a href="mailto:school@znaika-school.ru">school@znaika-school.ru</a></p>
+          <p>&#128205; <a class="map-link" href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%BF%D1%80.%D0%A7%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D0%BD%D0%BE%D0%B2%D1%8B%D1%85%2C%20%D0%B436" target="_blank" rel="noopener" title="Открыть на Яндекс Картах">Москва, пр.Черепановых, д.36</a></p>
+          <p>&#128368; Режим работы: Пн&ndash;Пт, 8:00 &ndash; 19:00</p>
+        </div>
+      </div>
+      <div class="footer-note">
+        <span>Лицензия &mdash; № Л035-01298-77/00386343 от 23.03.2015 &middot; Аккредитация &mdash; № А007-01298-77/01191361 от 10.04.2015</span>
+        <span class="footer-copy">&copy; 2026 Частная школа «Знайка» &middot; <a href="dokumenty.html">Документы</a> &middot; <a href="kontakty.html">Контакты</a></span>
+        <span class="footer-social"><a href="https://t.me/school_znaika" target="_blank" rel="noopener" title="Телеграм-канал">Telegram</a> &middot; <a href="https://max.ru/join/j9GE8FQjK9YfW0T2uX1gOa6Np3lDcV7mS4hZrBvPnM2" target="_blank" rel="noopener" title="Мы в MAX">Max</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <button class="btn-to-top" id="toTop" title="Наверх" aria-label="Наверх">&#8593;</button>
+
+  
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#edf2fb"/>
+      <stop offset="1" stop-color="#dde7f7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Стена и пол -->
+  <rect width="900" height="620" fill="url(#wall)"/>
+  <rect y="480" width="900" height="140" fill="#cdb38a"/>
+  <rect y="480" width="900" height="10" fill="#b99e75"/>
+
+  <!-- Доска -->
+  <rect x="330" y="60" width="300" height="160" rx="10" fill="#3e7a4f"/>
+  <rect x="342" y="72" width="276" height="136" rx="6" fill="#eaf6ec"/>
+  <text x="426" y="120" text-anchor="middle" font-family="Arial" font-size="26" fill="#2c5c3a">2 + 3 = ?</text>
+  <text x="428" y="170" text-anchor="middle" font-family="Arial" font-size="26" fill="#2c5c3a">А · Б · В</text>
+
+  <!-- Окно -->
+  <rect x="40" y="60" width="170" height="140" rx="10" fill="#bfd5f0" stroke="#ffffff" stroke-width="8"/>
+  <line x1="125" y1="60" x2="125" y2="200" stroke="#ffffff" stroke-width="7"/>
+  <line x1="40" y1="130" x2="210" y2="130" stroke="#ffffff" stroke-width="7"/>
+
+  <!-- Дети за партами -->
+  <g>
+    <!-- Парта 1 -->
+    <rect x="90" y="390" width="170" height="14" rx="6" fill="#8a5a33"/>
+    <rect x="150" y="404" width="50" height="76" fill="#7a4e2b"/>
+    <rect x="120" y="420" width="30" height="22" rx="4" fill="#5b7bd9"/><rect x="196" y="420" width="30" height="22" rx="4" fill="#5b7bd9"/>
+    <rect x="172" y="380" width="40" height="12" rx="4" fill="#f5f0e6"/><rect x="242" y="380" width="20" height="12" rx="2" fill="#d94f5a"/>
+  </g>
+  <g>
+    <circle cx="150" cy="330" r="22" fill="#f4c9a0"/>
+    <path d="M128 334 Q130 306 150 304 Q170 306 172 334 Q170 322 150 318 Q130 322 128 334 Z" fill="#4a3225"/>
+    <ellipse cx="150" cy="360" rx="30" ry="16" fill="#5b7bd9"/>
+    <path d="M128 372 Q130 392 174 372 L176 320 L168 324 L150 320 L134 324 L126 320 L128 376 Q134 372 138 344 Z" fill="#4559c7"/>
+  </g>
+
+  <g>
+    <!-- Парта 2 -->
+    <rect x="360" y="400" width="170" height="14" rx="6" fill="#8a5a33"/>
+    <rect x="420" y="414" width="50" height="66" fill="#7a4e2b"/>
+    <rect x="386" y="426" width="30" height="22" rx="4" fill="#5b7bd9"/><rect x="474" y="426" width="30" height="22" rx="4" fill="#5b7bd9"/>
+    <rect x="440" y="390" width="40" height="12" rx="4" fill="#f5f0e6"/><rect x="508" y="390" width="20" height="12" rx="2" fill="#d94f5a"/>
+  </g>
+  <g>
+    <circle cx="460" cy="338" r="22" fill="#f5cea5"/>
+    <path d="M438 342 Q440 314 460 312 Q480 314 482 342 Q480 330 460 326 Q440 330 438 342 Z" fill="#7a4a24"/>
+    <ellipse cx="460" cy="368" rx="30" ry="16" fill="#d94f5a"/>
+    <path d="M438 380 Q440 400 484 380 L486 328 L478 332 L460 328 L444 332 L436 328 L438 384 Q444 380 448 352 Z" fill="#c43a47"/>
+  </g>
+
+  <g>
+    <!-- Парта 3 -->
+    <rect x="640" y="408" width="170" height="14" rx="6" fill="#8a5a33"/>
+    <rect x="700" y="422" width="50" height="58" fill="#7a4e2b"/>
+    <rect x="664" y="434" width="30" height="20" rx="4" fill="#5b7bd9"/><rect x="756" y="434" width="30" height="20" rx="4" fill="#5b7bd9"/>
+  </g>
+  <g>
+    <circle cx="716" cy="344" r="22" fill="#f2c39a"/>
+    <path d="M694 348 Q696 320 716 318 Q736 320 738 348 Q736 336 716 332 Q696 336 694 348 Z" fill="#2c5c3a"/>
+    <ellipse cx="716" cy="374" rx="30" ry="16" fill="#2c5c3a"/>
+    <path d="M694 386 Q696 406 740 386 L742 334 L734 338 L716 334 L700 338 L692 334 L694 390 Q700 386 704 358 Z" fill="#1e4630"/>
+  </g>
+
+  <!-- Учитель -->
+  <g>
+    <circle cx="520" cy="280" r="24" fill="#f4c9a0"/>
+    <path d="M498 284 Q500 254 520 252 Q540 254 542 284 Q540 272 520 268 Q500 272 498 284 Z" fill="#f0e0c8"/>
+    <ellipse cx="520" cy="312" rx="34" ry="18" fill="#2f6bf0"/>
+    <path d="M494 322 Q496 344 546 322 L548 268 L540 272 L520 268 L502 272 L494 268 L494 326 Q500 322 504 294 Z" fill="#2455c9"/>
+  </g>
+</svg>

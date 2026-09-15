@@ -1,0 +1,13 @@
+# ОС и OneDrive
+Thumbs.db
+Desktop.ini
+.~lock.*
+
+# Временные файлы
+_report_.txt
+*.tmp
+*.bak
+
+# Нода / кэш
+node_modules/
+.DS_Store
