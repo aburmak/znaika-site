@@ -196,7 +196,7 @@ a:hover { color: var(--accent-2); }
   inset: 0;
   background-image:
     linear-gradient(115deg, rgba(20, 26, 40, 0.92) 20%, rgba(28, 40, 66, 0.72) 60%, rgba(40, 60, 100, 0.6) 100%),
-    url("../img/10_photo.jpg");
+    url("../img/hero-documents-generated.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -824,12 +824,12 @@ body.refresh {
 .refresh .hero { padding: 95px 0 80px; }
 .refresh:not(.page-home) .hero { padding: 64px 0 70px !important; }
 .refresh .hero-bg {
-  background-image: linear-gradient(90deg, rgba(13,43,86,.96) 0%, rgba(13,43,86,.84) 45%, rgba(13,43,86,.28) 100%), url("../img/10_photo.jpg");
+  background-image: linear-gradient(90deg, rgba(13,43,86,.96) 0%, rgba(13,43,86,.84) 45%, rgba(13,43,86,.28) 100%), url("../img/hero-classroom-generated.png");
   background-position: center 42%;
   background-attachment: scroll;
 }
 .page-admission .hero-bg { background-image: linear-gradient(90deg, rgba(13,43,86,.95) 0%, rgba(13,43,86,.78) 50%, rgba(13,43,86,.23) 100%), url("../img/15_photo.jpg"); }
-.page-about .hero-bg { background-image: linear-gradient(90deg, rgba(13,43,86,.95) 0%, rgba(13,43,86,.78) 50%, rgba(13,43,86,.23) 100%), url("../img/10_photo.jpg"); }
+.page-about .hero-bg { background-image: linear-gradient(90deg, rgba(13,43,86,.95) 0%, rgba(13,43,86,.78) 50%, rgba(13,43,86,.23) 100%), url("../img/hero-classroom-generated.png"); }
 .page-contacts .hero-bg { background-image: linear-gradient(90deg, rgba(13,43,86,.95) 0%, rgba(13,43,86,.78) 50%, rgba(13,43,86,.23) 100%), url("../img/19_photo.jpg"); }
 .refresh .hero .kicker { color: #e8f2ff; background: rgba(255,255,255,.13); border-color: rgba(255,255,255,.25); }
 .refresh .hero h1 { max-width: 820px; line-height: 1.07; letter-spacing: -.035em; }
@@ -872,7 +872,7 @@ body { background: #f8fbff; }
 .topbar { background: #edf5ff; }
 .site-header { background: rgba(255,255,255,.97); }
 .hero-bg {
-  background-image: linear-gradient(90deg, rgba(12,39,78,.94) 0%, rgba(12,39,78,.80) 48%, rgba(12,39,78,.30) 100%), url("../img/10_photo.jpg");
+  background-image: linear-gradient(90deg, rgba(12,39,78,.94) 0%, rgba(12,39,78,.80) 48%, rgba(12,39,78,.30) 100%), url("../img/hero-documents-generated.png");
   background-attachment: scroll;
   background-position: center 40%;
 }
