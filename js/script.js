@@ -41,11 +41,20 @@ $(document).ready(function () {
       if (link.length) {
         startTab = link.parent().index();
       }
+      if (/^#price-(school|extern|cpom)$/.test(hash)) {
+        startTab = 1;
+      }
     }
     $("#postupl-tabs").tabs({
       active: startTab,
       activate: function () { $(window).trigger("scroll"); }
     });
+    if (/^#price-(school|extern|cpom)$/.test(hash)) {
+      setTimeout(function () {
+        var target = document.getElementById(hash.slice(1));
+        if (target) { target.scrollIntoView({ behavior: "smooth", block: "center" }); }
+      }, 100);
+    }
   }
 
   /* ---------- 4. jQuery UI Accordion (виджет) для FAQ ---------- */
