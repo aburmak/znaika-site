@@ -904,3 +904,46 @@ table.price th { background: #e8f1ff; }
   .hero h1 { font-size: clamp(34px, 8vw, 46px); }
   .hero .kicker { letter-spacing: .08em; }
 }
+/* Admission steps: readable headings and natural line spacing */
+#etapy .steps > li {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  column-gap: 20px;
+  row-gap: 6px;
+  align-items: start;
+  padding: 24px;
+}
+#etapy .steps > li::before {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+#etapy .steps > li > b {
+  grid-column: 2;
+  color: #111827;
+  font-size: 18px;
+  line-height: 1.35;
+  font-weight: 800;
+  margin: 0;
+}
+#etapy .steps > li > span {
+  grid-column: 2;
+  display: block;
+  color: #334155;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+  text-wrap: pretty;
+}
+#etapy .steps a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+@media (max-width: 600px) {
+  #etapy .steps > li {
+    grid-template-columns: 46px minmax(0, 1fr);
+    column-gap: 14px;
+    padding: 18px;
+  }
+  #etapy .steps > li > b { font-size: 16px; }
+  #etapy .steps > li > span { font-size: 15px; }
+}
