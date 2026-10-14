@@ -935,6 +935,7 @@ table.price th { background: #e8f1ff; }
   text-wrap: pretty;
 }
 #etapy .steps a {
+  color: #1d62b5;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
