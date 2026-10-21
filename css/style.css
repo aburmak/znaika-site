@@ -978,3 +978,56 @@ p, li, label, td { overflow-wrap: break-word; }
     background-image: linear-gradient(90deg, rgba(10, 38, 76, .96), rgba(10, 38, 76, .68)), url("../img/hero-children-2026.png");
   }
 }
+
+/* Admission and documents: clearer rhythm and shorter reading lines */
+.page-admission #tabs-section { padding-block: 80px 88px; }
+.page-admission #etapy .steps { gap: 22px; }
+.page-admission #etapy .steps > li {
+  padding: 28px 30px;
+  column-gap: 24px;
+  row-gap: 8px;
+  border-radius: 20px;
+}
+.page-admission #etapy .steps > li > b { font-size: 19px; line-height: 1.35; }
+.page-admission #etapy .steps > li > span { max-width: 68ch; font-size: 16px; line-height: 1.65; }
+.page-admission #faq-accordion { max-width: 840px !important; }
+.page-admission #faq-accordion p { max-width: 70ch; line-height: 1.7; }
+.page-admission .cta p { max-width: 62ch; margin-inline: auto; }
+
+.page-documents .sec-head { margin-bottom: 42px; }
+.page-documents .sec-head p { max-width: 62ch; margin-inline: auto; text-align: center; }
+.page-documents #obshie { padding-block: 80px 88px; }
+.page-documents .doc-group {
+  padding: 30px 32px;
+  margin-bottom: 28px;
+  border-radius: 20px;
+}
+.page-documents .doc-group h3 {
+  color: #18314f;
+  font-size: 21px;
+  line-height: 1.35;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.page-documents .doc-list { gap: 12px; }
+.page-documents .doc-list li a {
+  min-height: 54px;
+  padding: 13px 16px;
+  font-size: 15px;
+  line-height: 1.5;
+  background: #f8fbff;
+}
+.page-documents .price td { padding-block: 17px; line-height: 1.55; }
+
+@media (max-width: 700px) {
+  .page-admission #tabs-section,
+  .page-documents #obshie { padding-block: 56px 64px; }
+  .page-admission #etapy .steps { gap: 16px; }
+  .page-admission #etapy .steps > li { padding: 20px 18px; column-gap: 14px; }
+  .page-admission #etapy .steps > li > b { font-size: 17px; }
+  .page-admission #etapy .steps > li > span { font-size: 15px; }
+  .page-documents .doc-group { padding: 22px 18px; margin-bottom: 18px; }
+  .page-documents .doc-group h3 { font-size: 18px; }
+  .page-documents .doc-list li a { font-size: 14px; }
+}
