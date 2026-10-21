@@ -948,3 +948,33 @@ table.price th { background: #e8f1ff; }
   #etapy .steps > li > b { font-size: 16px; }
   #etapy .steps > li > span { font-size: 15px; }
 }
+
+/* Shared editorial style for all six pages */
+.hero-bg,
+.refresh .hero-bg {
+  background-image: linear-gradient(90deg, rgba(10, 38, 76, .96) 0%, rgba(11, 43, 86, .82) 44%, rgba(12, 50, 92, .27) 100%), url("../img/hero-children-2026.png");
+  background-position: center 44%;
+  background-size: cover;
+}
+.page-admission .hero-bg {
+  background-image: linear-gradient(90deg, rgba(10, 38, 76, .96) 0%, rgba(11, 43, 86, .82) 44%, rgba(12, 50, 92, .27) 100%), url("../img/hero-teens-2026.png");
+}
+.page-contacts .hero-bg,
+.page-application .hero-bg,
+.page-documents .hero-bg {
+  background-image: linear-gradient(90deg, rgba(10, 38, 76, .96) 0%, rgba(11, 43, 86, .82) 44%, rgba(12, 50, 92, .27) 100%), url("../img/hero-family-2026.png");
+}
+body { color: #18314f; line-height: 1.65; }
+h1, h2, h3, h4 { line-height: 1.2; letter-spacing: -.02em; }
+p, li, label, td { overflow-wrap: break-word; }
+.steps span { text-align: left; }
+.sec-head p, .split p, .step-card p, .form-note, .ank-sec-head p { text-align: left; line-height: 1.7; }
+.nav-list li a { letter-spacing: 0; }
+.hero h1 { text-shadow: 0 2px 14px rgba(0, 22, 52, .25); }
+.hero .lead { line-height: 1.55; }
+@media (max-width: 700px) {
+  .hero-bg, .refresh .hero-bg, .page-admission .hero-bg, .page-contacts .hero-bg, .page-application .hero-bg, .page-documents .hero-bg {
+    background-position: 66% center;
+    background-image: linear-gradient(90deg, rgba(10, 38, 76, .96), rgba(10, 38, 76, .68)), url("../img/hero-children-2026.png");
+  }
+}
